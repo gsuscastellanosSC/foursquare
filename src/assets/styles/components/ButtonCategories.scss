@@ -1,0 +1,20 @@
+.button__Categories{
+    
+    margin-top: 0;
+    margin: 10px auto;
+    background-color:rgba(4, 45, 99, 0.589);
+    border: transparentize($color: #000000, $amount: 0);
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;  
+    font-family: 'Muli', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+  
+.button__c {
+    display: flex;
+    justify-content: center;
+}
+
