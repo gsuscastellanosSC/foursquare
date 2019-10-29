@@ -11,7 +11,9 @@ import ButtonCategories from '../components/ButtonCategories';
 import '../assets/styles/Media.scss';
 import '../assets/styles/App.scss';
 
-const Home = ({ MySites, food, originals }) => {
+const Home = ({
+  MySites, food, coffee, night, fun, shopping, Health, pets, movie,
+}) => {
   return (
     <>
       <Search isHome />
@@ -40,16 +42,51 @@ const Home = ({ MySites, food, originals }) => {
       </Categories>
       )}
 
-
       <Categories title="Comida">
         <Carousel>
           {food.map((item) => <CarouserItem key={item.id} {...item} />)}
         </Carousel>
       </Categories>
 
-      <Categories title="Lo mejor de Colombia">
+      <Categories title="Café">
         <Carousel>
-          {originals.map((item) => <CarouserItem key={item.id} {...item} />)}
+          {coffee.map((item) => <CarouserItem key={item.id} {...item} />)}
+        </Carousel>
+      </Categories>
+
+      <Categories title="Nocturna">
+        <Carousel>
+          {night.map((item) => <CarouserItem key={item.id} {...item} />)}
+        </Carousel>
+      </Categories>
+
+      <Categories title="Diversión">
+        <Carousel>
+          {fun.map((item) => <CarouserItem key={item.id} {...item} />)}
+        </Carousel>
+      </Categories>
+
+      <Categories title="Compras">
+        <Carousel>
+          {shopping.map((item) => <CarouserItem key={item.id} {...item} />)}
+        </Carousel>
+      </Categories>
+
+      <Categories title="Salud">
+        <Carousel>
+          {Health.map((item) => <CarouserItem key={item.id} {...item} />)}
+        </Carousel>
+      </Categories>
+
+      <Categories title="Mascotas">
+        <Carousel>
+          {pets.map((item) => <CarouserItem key={item.id} {...item} />)}
+        </Carousel>
+      </Categories>
+
+      <Categories title="Cine">
+        <Carousel>
+          {movie.map((item) => <CarouserItem key={item.id} {...item} />)}
         </Carousel>
       </Categories>
     </>
@@ -59,7 +96,13 @@ const Home = ({ MySites, food, originals }) => {
 const mapStateToProps = (state) => ({
   MySites: state.MySites,
   food: state.food,
-  originals: state.originals,
+  coffee: state.coffee,
+  fun: state.fun,
+  night: state.night,
+  shopping: state.shopping,
+  Health: state.Health,
+  pets: state.pets,
+  movie: state.movie,
 });
 
 export default connect(mapStateToProps, null)(Home);
