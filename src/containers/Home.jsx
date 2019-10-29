@@ -15,7 +15,7 @@ const Home = ({ MySites, food, originals }) => {
   return (
     <>
       <Search isHome />
-      <div className="button__c">
+      <div className="button__Search">
         <ButtonCategories title="Comida" type="food" />
         <ButtonCategories title="Café" />
         <ButtonCategories title="Nocturna" />
