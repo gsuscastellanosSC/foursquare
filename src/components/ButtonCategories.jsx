@@ -5,7 +5,7 @@ import React from 'react';
 import '../assets/styles/components/ButtonCategories.scss';
 
 const ButtonCategories = ({ title }) => (
-      <button className="button__Categories">{title}</button>
+      <button className="button__Categories" >{title}</button>
 );
 
 export default ButtonCategories;

@@ -27,3 +27,8 @@ export const getVideoSuorce = (payload) => ({
   type: 'GET_VIDEO_SOURCE',
   payload,
 });
+
+export const setsearch = (payload) => ({
+  type: 'SET_SETSEARCH',
+  payload,
+});
