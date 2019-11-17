@@ -7,6 +7,7 @@ import Register from '../containers/Register';
 import NotFound from '../containers/NotFound';
 import Layout from '../components/Layout';
 import Player from '../containers/Player';
+import Sites from '../containers/sites';
 
 const App = () => (
   <BrowserRouter>
@@ -16,6 +17,7 @@ const App = () => (
         <Route exact path="/Login" component={Login} />
         <Route exact path="/Register" component={Register} />
         <Route exact path="/Player/:id" component={Player} />
+        <Route exact path="/Sites" component={Sites} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
