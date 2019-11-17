@@ -1,5 +1,5 @@
 import React from 'react';
-import MapContainer from '../components/MapContainer.jsx';
+import MapContainer from '../components/MapContainer';
 import '../assets/styles/components/Sites.scss';
 
 const Sites = () => (

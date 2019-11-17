@@ -1,11 +1,11 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
+import PropTypes from 'prop-types';
 
 class MapContainer extends React.Component {
   render() {
     const { google, lat, lng } = this.props;
-    console.log(`Latitud y longitud ${lat} y ${lng}`);
 
     return (
       <Map
@@ -28,6 +28,12 @@ class MapContainer extends React.Component {
     );
   }
 }
+
+MapContainer.propTypes = {
+  google: PropTypes.object,
+  lat: PropTypes.number,
+  lng: PropTypes.number,
+};
 
 export default GoogleApiWrapper({
   apiKey: 'AIzaSyCmjvkXB_DMnBUNwxQztLMStyQmA_szbNw',

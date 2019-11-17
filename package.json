@@ -16,6 +16,7 @@
     "md5": "^2.2.1",
     "pkg-up": "^1.0.0",
     "prop-types": "^15.7.2",
+    "react-google-maps": "^9.4.5",
     "react-redux": "^7.1.1",
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.4"
