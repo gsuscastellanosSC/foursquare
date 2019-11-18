@@ -7,24 +7,12 @@ class MapContainer extends React.Component {
   render() {
     const {
       google,
-      id,
-      nameSite,
-      description,
-      rating,
-      type,
-      comments,
-      address,
-      city,
-      country,
-      socialMedia,
-      images,
-      source,
-      isList,
-      coordinates = [],
+      lat,
+      lng,
     } = this.props;
-    console.log(`las coordenadas son: ${coordinates[0].lat}, ${coordinates[0].lng}`);
-    const { lng } = coordinates[0];
-    const { lat } = coordinates[0];
+    // console.log(`las coordenadas son: ${coordinates[0].lat}, ${coordinates[0].lng}`);
+    // const { lng } = coordinates[0];
+    // const { lat } = coordinates[0];
 
     return (
       <Map

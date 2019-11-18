@@ -43,7 +43,7 @@ const Sites = (props) => {
         </ul>
       </section>
       <section className="map">
-        mapa
+        <MapContainer lat={lat} lng={lng} />
       </section>
     </section>
   );
