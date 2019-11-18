@@ -17,7 +17,8 @@ class MapContainer extends React.Component {
     return (
       <Map
         google={google}
-        zoom={14}
+        zoom={13}
+        style={{ width: '100%', height: '100%', position: 'relative' }}
         initialCenter={{ lat, lng }}
 
       >
@@ -29,7 +30,7 @@ class MapContainer extends React.Component {
         /> */}
         <Marker
           name="Platzi HQ Bogota"
-          position={{ lat: 4.6560716, lng: -74.0595918 }}
+          position={{ lat, lng }}
         />
       </Map>
     );
