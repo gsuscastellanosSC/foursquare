@@ -4,9 +4,10 @@ import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 import PropTypes from 'prop-types';
 
 class MapContainer extends React.Component {
+  const { google, lat, lng } = this.props;
   render() {
-    const { google, lat, lng } = this.props;
-
+    console.log(`Estamos en mapContainer--->>>${this.google}`);
+    console.log(`=========> ${this.lat} --- ${this.lng}`);
     return (
       <Map
         google={google}
@@ -29,11 +30,11 @@ class MapContainer extends React.Component {
   }
 }
 
-MapContainer.propTypes = {
-  google: PropTypes.object,
-  lat: PropTypes.number,
-  lng: PropTypes.number,
-};
+// MapContainer.propTypes = {
+//   google: PropTypes.object,
+//   lat: PropTypes.number,
+//   lng: PropTypes.number,
+// };
 
 export default GoogleApiWrapper({
   apiKey: 'AIzaSyCmjvkXB_DMnBUNwxQztLMStyQmA_szbNw',

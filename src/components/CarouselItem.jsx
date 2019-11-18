@@ -20,6 +20,7 @@ const CarouselItem = (props) => {
   const {
     id, nameSite, description, rating, type, comments, address, city, country, socialMedia, images, source, isList, coordinates,
   } = props;
+  console.log(coordinates[0].lat);
   const handleSetFavorite = () => {
     props.setFavorite({
       ...props,
