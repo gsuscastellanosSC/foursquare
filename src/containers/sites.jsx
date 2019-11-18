@@ -7,8 +7,10 @@ import '../assets/styles/components/Sites.scss';
 
 const Sites = (props) => {
   const {
-    nameSite, description, rating, type, comments, address, city, country, socialMedia, images, source, isList, coordinates,
+    nameSite, description, rating, type, comments, address, city, country, socialMedia, images, source, isList, lat, lng,
   } = props.playing;
+
+  // console.log(`las Coodenadas son: ${props.playing}`);
   // console.log(food[0].coordinates[0].lat);
   // const coordinates = food[0];
   // console.log(`---------->${coordinates.lat}`);
@@ -21,8 +23,8 @@ const Sites = (props) => {
     props.getVideoSuorce(id);
   }, []);
   const hasPlaying = Object.keys(props.playing).length;
-  const { play } = props.playing;
-  console.log(`Las propiedades del sitio: ${hasPlaying} --- ${description}`);
+  // const [play] = props.playing;
+  console.log(`Las propiedades del sitio: ${hasPlaying} --- ${props.playing}`);
   return (
     <section className="container">
       <section className="info">
@@ -36,6 +38,8 @@ const Sites = (props) => {
           <li>{`comments: ${comments}`}</li>
           <li>{`address: ${nameSite}`}</li>
           <li>{`city: ${city}`}</li>
+          <li>{`Latitude: ${lat}`}</li>
+          <li>{`Longitude: ${lng}`}</li>
         </ul>
       </section>
       <section className="map">

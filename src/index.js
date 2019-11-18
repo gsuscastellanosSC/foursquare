@@ -27,7 +27,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://www.ecestaticos.com/imagestatic/clipping/1ed/a44/1eda44daf5f75ca868b7eb9bf93396e4/por-que-el-desayuno-es-la-comida-mas-importante-si-quieres-estar-delgado.jpg?mtime=1500455115",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 3,
@@ -42,7 +43,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://blog.seccionamarilla.com.mx/wp-content/uploads/2017/11/comida_naviden%CC%83a-770x578.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 4,
@@ -57,7 +59,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://i1.wp.com/thehappening.com/wp-content/uploads/2017/01/comida-healthy.jpg?fit=1024%2C694&ssl=1",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 5,
@@ -72,7 +75,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://t2.rg.ltmcdn.com/es/images/4/2/6/los_15_platos_mas_tipicos_de_mexico_71624_600.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 6,
@@ -87,7 +91,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://www.tootay.com/wp-content/uploads/2017/07/600-13093.jpeg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 7,
@@ -102,7 +107,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://hablemosdeculturas.com/wp-content/uploads/2017/12/Comida-Francesa-08.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
     ],
     "coffee": [
@@ -119,7 +125,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://visit.gent.be/sites/default/files/styles/header_mobile/public/img/poi/hero/PuurGent-DT007776.JPG?itok=HdM0jHs9",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 9,
@@ -134,7 +141,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://media-cdn.tripadvisor.com/media/photo-s/13/7f/54/8e/photo3jpg.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 10,
@@ -149,7 +157,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://www.apasionadosporelcafe.com/wp-content/uploads/2018/02/2018-02-01-4.png",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 11,
@@ -164,7 +173,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfZNGZsPrc9vOUBbbTE2ec5jGYPd09ZiH_WIqW_H0ddTzZkh6n8g&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 12,
@@ -179,7 +189,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://media-cdn.tripadvisor.com/media/photo-s/0c/0e/61/91/cafe-amore.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 13,
@@ -194,7 +205,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxbTXZjTt6_Xne2-KiwW8IJzh1nsrVOWPOKd4MpMtGorAtr97G&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
     ],
     "night": [
@@ -211,7 +223,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://www.ecestaticos.com/imagestatic/clipping/1ed/a44/1eda44daf5f75ca868b7eb9bf93396e4/por-que-el-desayuno-es-la-comida-mas-importante-si-quieres-estar-delgado.jpg?mtime=1500455115",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 16,
@@ -226,7 +239,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://blog.seccionamarilla.com.mx/wp-content/uploads/2017/11/comida_naviden%CC%83a-770x578.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 17,
@@ -241,7 +255,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://i1.wp.com/thehappening.com/wp-content/uploads/2017/01/comida-healthy.jpg?fit=1024%2C694&ssl=1",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 18,
@@ -256,7 +271,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://t2.rg.ltmcdn.com/es/images/4/2/6/los_15_platos_mas_tipicos_de_mexico_71624_600.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 19,
@@ -271,7 +287,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://www.tootay.com/wp-content/uploads/2017/07/600-13093.jpeg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 20,
@@ -286,7 +303,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://hablemosdeculturas.com/wp-content/uploads/2017/12/Comida-Francesa-08.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
     ],
     "fun": [
@@ -303,7 +321,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://www.ecestaticos.com/imagestatic/clipping/1ed/a44/1eda44daf5f75ca868b7eb9bf93396e4/por-que-el-desayuno-es-la-comida-mas-importante-si-quieres-estar-delgado.jpg?mtime=1500455115",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 22,
@@ -318,7 +337,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://blog.seccionamarilla.com.mx/wp-content/uploads/2017/11/comida_naviden%CC%83a-770x578.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 23,
@@ -333,7 +353,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://i1.wp.com/thehappening.com/wp-content/uploads/2017/01/comida-healthy.jpg?fit=1024%2C694&ssl=1",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 24,
@@ -348,7 +369,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://t2.rg.ltmcdn.com/es/images/4/2/6/los_15_platos_mas_tipicos_de_mexico_71624_600.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 25,
@@ -363,7 +385,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://www.tootay.com/wp-content/uploads/2017/07/600-13093.jpeg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 26,
@@ -378,7 +401,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://hablemosdeculturas.com/wp-content/uploads/2017/12/Comida-Francesa-08.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
     ],
     "shopping": [
@@ -395,7 +419,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://cdn.shopify.com/s/files/1/1381/2063/products/tour-de-compras-jersey-gardens_grande.jpg?v=1494523091",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 28,
@@ -410,7 +435,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://d8bwfgv5erevs.cloudfront.net/cdn/13/images/curso-de-logistica-de-compras-y-aprovisionamientos_l_primaria_1.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 29,
@@ -425,7 +451,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://www.incp.org.co/wp-content/uploads/2017/11/Compras-800x411.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 30,
@@ -440,7 +467,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://m.prensa.com/vivir/Compras-seguras_LPRIMA20171123_0106_27.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 31,
@@ -455,7 +483,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://www.tootay.com/wp-content/uploads/2017/07/600-13093.jpeg",
         "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRla2-w_TF3taQdL79iuZ3usJULOQaLX9uvipmDjEm-a8qxII76&s",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 32,
@@ -470,7 +499,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://smarterworkspaces.kyocera.es/blog/wp-content/uploads/2018/05/gestion-de-compras-770x577.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
     ],
     "Health": [

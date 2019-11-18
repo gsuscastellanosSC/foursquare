@@ -18,7 +18,7 @@ import removeIcon from '../assets/static/remove-icon.png';
 
 const CarouselItem = (props) => {
   const {
-    id, nameSite, description, rating, type, comments, address, city, country, socialMedia, images, source, isList, coordinates,
+    id, nameSite, description, rating, type, comments, address, city, country, socialMedia, images, source, isList, lat, lng,
   } = props;
   // console.log(`las coordenadas son: ${coordinates[0].lat}, ${coordinates[0].lng}`);
   const handleSetFavorite = () => {
