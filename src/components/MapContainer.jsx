@@ -4,10 +4,28 @@ import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
 import PropTypes from 'prop-types';
 
 class MapContainer extends React.Component {
-  const { google, lat, lng } = this.props;
   render() {
-    console.log(`Estamos en mapContainer--->>>${this.google}`);
-    console.log(`=========> ${this.lat} --- ${this.lng}`);
+    const {
+      google,
+      id,
+      nameSite,
+      description,
+      rating,
+      type,
+      comments,
+      address,
+      city,
+      country,
+      socialMedia,
+      images,
+      source,
+      isList,
+      coordinates = [],
+    } = this.props;
+    console.log(`las coordenadas son: ${coordinates[0].lat}, ${coordinates[0].lng}`);
+    const { lng } = coordinates[0];
+    const { lat } = coordinates[0];
+
     return (
       <Map
         google={google}

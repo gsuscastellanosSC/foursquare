@@ -20,7 +20,7 @@ const CarouselItem = (props) => {
   const {
     id, nameSite, description, rating, type, comments, address, city, country, socialMedia, images, source, isList, coordinates,
   } = props;
-  console.log(coordinates[0].lat);
+  // console.log(`las coordenadas son: ${coordinates[0].lat}, ${coordinates[0].lng}`);
   const handleSetFavorite = () => {
     props.setFavorite({
       ...props,
@@ -36,7 +36,7 @@ const CarouselItem = (props) => {
       <img className="carousel-item__img" src={images} alt={nameSite} />
       <div className="carousel-item__details">
         <div>
-          <Link to={`/player/${id}`}>
+          <Link to={`/sites/${id}`}>
             <img
               className="carousel-item__details--img"
               src={playIcon}
