@@ -19,14 +19,14 @@ const Home = ({
     <>
       <Search isHome />
       <div className="button__Search">
-        <ButtonCategories title="Comida" type="food" />
-        <ButtonCategories title="Café" />
-        <ButtonCategories title="Nocturna" />
-        <ButtonCategories title="Diversión" />
-        <ButtonCategories title="Compras" />
-        <ButtonCategories title="Salud" />
-        <ButtonCategories title="Mascotas" />
-        <ButtonCategories title="Cine" />
+        <ButtonCategories title="Comida" type="food" cat="food" />
+        <ButtonCategories title="Café" type="coffee" cat="coffee" />
+        <ButtonCategories title="Nocturna" type="night" cat="night" />
+        <ButtonCategories title="Diversión" type="fun" cat="fun" />
+        <ButtonCategories title="Compras" type="shopping" cat="shopping" />
+        <ButtonCategories title="Salud" type="Health" cat="Health" />
+        <ButtonCategories title="Mascotas" type="pets" cat="pets" />
+        <ButtonCategories title="Cine" type="movie" cat="movie" />
       </div>
       {MySites.length > 0
       && (

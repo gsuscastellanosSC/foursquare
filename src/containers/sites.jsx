@@ -40,6 +40,54 @@ const Sites = (props) => {
           <li>{`city: ${city}`}</li>
           <li>{`Latitude: ${lat}`}</li>
           <li>{`Longitude: ${lng}`}</li>
+          <li>{`Nombre: ${nameSite}`}</li>
+          <li>{`rating: ${rating}`}</li>
+          <li>{`type: ${type}`}</li>
+          <li>{`comments: ${comments}`}</li>
+          <li>{`address: ${nameSite}`}</li>
+          <li>{`city: ${city}`}</li>
+          <li>{`Latitude: ${lat}`}</li>
+          <li>{`Longitude: ${lng}`}</li>
+          <li>{`Nombre: ${nameSite}`}</li>
+          <li>{`rating: ${rating}`}</li>
+          <li>{`type: ${type}`}</li>
+          <li>{`comments: ${comments}`}</li>
+          <li>{`address: ${nameSite}`}</li>
+          <li>{`city: ${city}`}</li>
+          <li>{`Latitude: ${lat}`}</li>
+          <li>{`Longitude: ${lng}`}</li>
+          <li>{`Nombre: ${nameSite}`}</li>
+          <li>{`rating: ${rating}`}</li>
+          <li>{`type: ${type}`}</li>
+          <li>{`comments: ${comments}`}</li>
+          <li>{`address: ${nameSite}`}</li>
+          <li>{`city: ${city}`}</li>
+          <li>{`Latitude: ${lat}`}</li>
+          <li>{`Longitude: ${lng}`}</li>
+          <li>{`Nombre: ${nameSite}`}</li>
+          <li>{`rating: ${rating}`}</li>
+          <li>{`type: ${type}`}</li>
+          <li>{`comments: ${comments}`}</li>
+          <li>{`address: ${nameSite}`}</li>
+          <li>{`city: ${city}`}</li>
+          <li>{`Latitude: ${lat}`}</li>
+          <li>{`Longitude: ${lng}`}</li>
+          <li>{`Nombre: ${nameSite}`}</li>
+          <li>{`rating: ${rating}`}</li>
+          <li>{`type: ${type}`}</li>
+          <li>{`comments: ${comments}`}</li>
+          <li>{`address: ${nameSite}`}</li>
+          <li>{`city: ${city}`}</li>
+          <li>{`Latitude: ${lat}`}</li>
+          <li>{`Longitude: ${lng}`}</li>
+          <li>{`Nombre: ${nameSite}`}</li>
+          <li>{`rating: ${rating}`}</li>
+          <li>{`type: ${type}`}</li>
+          <li>{`comments: ${comments}`}</li>
+          <li>{`address: ${nameSite}`}</li>
+          <li>{`city: ${city}`}</li>
+          <li>{`Latitude: ${lat}`}</li>
+          <li>{`Longitude: ${lng}`}</li>
         </ul>
       </section>
       <section className="map">

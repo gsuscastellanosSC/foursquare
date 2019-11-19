@@ -39,6 +39,11 @@ const reducer = (state, action) => {
         || state.coffee.find((item) => item.id === Number(action.payload))
         || [],
       };
+    case 'GET_ALL_SITES':
+      return {
+        ...state,
+        food: state.food,
+      };
     default:
       return state;
   }

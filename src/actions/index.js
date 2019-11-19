@@ -32,3 +32,8 @@ export const setsearch = (payload) => ({
   type: 'SET_SETSEARCH',
   payload,
 });
+
+export const getAllSites = (payload) => ({
+  type: 'GET_ALL_SITES',
+  payload,
+});
