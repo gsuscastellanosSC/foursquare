@@ -36,7 +36,7 @@ const CarouselItem = (props) => {
       <img className="carousel-item__img" src={images} alt={nameSite} />
       <div className="carousel-item__details">
         <div>
-          <Link to={`/sites/${id}`}>
+          <Link to={`/site/${id}`}>
             <img
               className="carousel-item__details--img"
               src={playIcon}

@@ -42,7 +42,7 @@ const reducer = (state, action) => {
     case 'GET_ALL_SITES':
       return {
         ...state,
-        food: state.food,
+        Sites: [...state.Sites, action.payload],
       };
     default:
       return state;

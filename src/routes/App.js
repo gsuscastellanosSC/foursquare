@@ -7,6 +7,7 @@ import Register from '../containers/Register';
 import NotFound from '../containers/NotFound';
 import Layout from '../components/Layout';
 import Player from '../containers/Player';
+import Site from '../containers/site';
 import Sites from '../containers/sites';
 
 const App = () => (
@@ -17,6 +18,7 @@ const App = () => (
         <Route exact path="/Login" component={Login} />
         <Route exact path="/Register" component={Register} />
         <Route exact path="/Player/:id" component={Player} />
+        <Route exact path="/Site/:id" component={Site} />
         <Route exact path="/Sites/:id" component={Sites} />
         <Route component={NotFound} />
       </Switch>

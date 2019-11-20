@@ -13,10 +13,11 @@ const initialState = {
   "user": {},
   "playing": {},
   "MySites": [],
+  "Sites": [],
   "food": [
       {
         "id": 2,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Frisby",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "food",
@@ -59,8 +60,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://i1.wp.com/thehappening.com/wp-content/uploads/2017/01/comida-healthy.jpg?fit=1024%2C694&ssl=1",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "lat": 4.7560516,
-        "lng": -74.3495918,
+        "lat": 4.6561755,
+        "lng": -74.0595977,
       },
       {
         "id": 5,
@@ -75,8 +76,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://t2.rg.ltmcdn.com/es/images/4/2/6/los_15_platos_mas_tipicos_de_mexico_71624_600.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "lat": 4.6450716,
-        "lng": -74.2295918,
+        "lat": 4.6560799,
+        "lng": -74.0595922,
       },
       {
         "id": 6,
@@ -114,7 +115,7 @@ const initialState = {
     "coffee": [
       {
         "id": 8,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Juan Valdes",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "food",
@@ -212,7 +213,7 @@ const initialState = {
     "night": [
       {
         "id": 14,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "El Paso",
         "description": "bla bla bla bla",
         "rating": 15,
         "type": "Diversión",
@@ -310,7 +311,7 @@ const initialState = {
     "fun": [
       {
         "id": 21,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "VideoJuegos",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "Diversión",
@@ -337,8 +338,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://blog.seccionamarilla.com.mx/wp-content/uploads/2017/11/comida_naviden%CC%83a-770x578.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "lat": 4.6560716,
-        "lng": -74.0595918,
+        "lat": 4.6170736,
+        "lng": -74.0591923,
       },
       {
         "id": 23,
@@ -353,8 +354,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://i1.wp.com/thehappening.com/wp-content/uploads/2017/01/comida-healthy.jpg?fit=1024%2C694&ssl=1",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "lat": 4.6560716,
-        "lng": -74.0595918,
+        "lat": 4.6160716,
+        "lng": -74.1595918,
       },
       {
         "id": 24,
@@ -369,8 +370,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://t2.rg.ltmcdn.com/es/images/4/2/6/los_15_platos_mas_tipicos_de_mexico_71624_600.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "lat": 4.6560716,
-        "lng": -74.0595918,
+        "lat": 4.6760716,
+        "lng": -74.0395918,
       },
       {
         "id": 25,
@@ -385,8 +386,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://www.tootay.com/wp-content/uploads/2017/07/600-13093.jpeg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "lat": 4.6560716,
-        "lng": -74.0595918,
+        "lat": 4.6770716,
+        "lng": -74.0535918,
       },
       {
         "id": 26,
@@ -401,14 +402,14 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://hablemosdeculturas.com/wp-content/uploads/2017/12/Comida-Francesa-08.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "lat": 4.6560716,
-        "lng": -74.0595918,
+        "lat": 4.6522311,
+        "lng": -74.1295918,
       },
     ],
     "shopping": [
       {
         "id": 27,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Zapatos",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "Diversión",
@@ -506,7 +507,7 @@ const initialState = {
     "Health": [
       {
         "id": 33,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Clinica del Norte",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "Diversión",
@@ -517,7 +518,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ33eUwUuAHaDNn4-DhrACj1RS6ufAqqTPHHyHPrtQZ8xBKYT0uw&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 34,
@@ -532,7 +534,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://images.medicinenet.com/images/article/main_image/healthy-living2.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 35,
@@ -547,7 +550,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9JHkkyk8toNxbWQUhZR4GBMwK7ahYSomZUEZ2Bc-rS0Ct-PKC&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 36,
@@ -562,7 +566,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe1btS-ejII_9upBKmZdMJ3ZUB_3rH8U_YnoTCAPLDWvCRwRdu&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 37,
@@ -577,7 +582,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEL6MIaMezpM8N0Lo6JGgss8LfC7k8til0kzAP75FoyAH8F9QmQ&s",
         "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEL6MIaMezpM8N0Lo6JGgss8LfC7k8til0kzAP75FoyAH8F9QmQ&s",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 38,
@@ -592,13 +598,14 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfNZxBYIixZSnqaCr1uVXPtAzkhGHEKoGNdRu1yeJ8SGakstE3&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
     ],
     "pets": [
       {
         "id": 39,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Tienda de Mascotas",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "Diversión",
@@ -609,7 +616,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ33eUwUuAHaDNn4-DhrACj1RS6ufAqqTPHHyHPrtQZ8xBKYT0uw&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 40,
@@ -624,7 +632,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://images.medicinenet.com/images/article/main_image/healthy-living2.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 41,
@@ -639,7 +648,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9JHkkyk8toNxbWQUhZR4GBMwK7ahYSomZUEZ2Bc-rS0Ct-PKC&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 42,
@@ -654,7 +664,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe1btS-ejII_9upBKmZdMJ3ZUB_3rH8U_YnoTCAPLDWvCRwRdu&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 43,
@@ -669,7 +680,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEL6MIaMezpM8N0Lo6JGgss8LfC7k8til0kzAP75FoyAH8F9QmQ&s",
         "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEL6MIaMezpM8N0Lo6JGgss8LfC7k8til0kzAP75FoyAH8F9QmQ&s",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 44,
@@ -684,13 +696,14 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfNZxBYIixZSnqaCr1uVXPtAzkhGHEKoGNdRu1yeJ8SGakstE3&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
     ],
     "movie": [
       {
         "id": 45,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Terminator",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "Diversión",
@@ -701,7 +714,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ33eUwUuAHaDNn4-DhrACj1RS6ufAqqTPHHyHPrtQZ8xBKYT0uw&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 46,
@@ -716,7 +730,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://images.medicinenet.com/images/article/main_image/healthy-living2.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 47,
@@ -731,7 +746,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9JHkkyk8toNxbWQUhZR4GBMwK7ahYSomZUEZ2Bc-rS0Ct-PKC&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 48,
@@ -746,7 +762,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe1btS-ejII_9upBKmZdMJ3ZUB_3rH8U_YnoTCAPLDWvCRwRdu&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 49,
@@ -761,7 +778,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEL6MIaMezpM8N0Lo6JGgss8LfC7k8til0kzAP75FoyAH8F9QmQ&s",
         "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEL6MIaMezpM8N0Lo6JGgss8LfC7k8til0kzAP75FoyAH8F9QmQ&s",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 50,
@@ -776,7 +794,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfNZxBYIixZSnqaCr1uVXPtAzkhGHEKoGNdRu1yeJ8SGakstE3&s",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
     ],
 };
