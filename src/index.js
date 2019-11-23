@@ -12,11 +12,12 @@ import App from './routes/App';
 const initialState = {
   "user": {},
   "playing": {},
+  "search": [],
   "MySites": [],
   "food": [
       {
         "id": 2,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Hamburguesa",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "food",
@@ -31,7 +32,7 @@ const initialState = {
       },
       {
         "id": 3,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Perro Caliente",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "food",
@@ -46,7 +47,7 @@ const initialState = {
       },
       {
         "id": 4,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Pizza",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "food",
@@ -61,7 +62,7 @@ const initialState = {
       },
       {
         "id": 5,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Papas Fritas",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "food",
@@ -76,7 +77,7 @@ const initialState = {
       },
       {
         "id": 6,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Salchipapas",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "food",
@@ -91,7 +92,7 @@ const initialState = {
       },
       {
         "id": 7,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "churrasco",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "food",

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable react/jsx-indent */
 /* eslint-disable arrow-body-style */
 /* eslint-disable react/prop-types */

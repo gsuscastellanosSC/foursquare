@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 const reducer = (state, action) => {
   switch (action.type) {
     case 'SET_FAVORITE':
@@ -33,15 +34,21 @@ const reducer = (state, action) => {
         || [],
       };
     case 'SET_SETSEARCH':
+      if (action.payload === '') {
+        return {
+          ...state,
+          search: [],
+        };
+      }
       return {
         ...state,
-        playing: state.food.find((item) => item.id === Number(action.payload))
-        || state.coffee.find((item) => item.id === Number(action.payload))
+        search: state.food.filter((item) => item.nameSite.toLowerCase().includes(action.payload.toLowerCase()))
+          || state.coffee.filter((item) => item.nameSite.toLowerCase().includes(action.payload.toLowerCase()))
         || [],
       };
+
     default:
       return state;
   }
 };
-
 export default reducer;
