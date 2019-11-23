@@ -105,6 +105,8 @@ const mapStateToProps = (state) => ({
   Health: state.Health,
   pets: state.pets,
   movie: state.movie,
+  all: state.all,
+  prueba: state.prueba,
 });
 
 export default connect(mapStateToProps, null)(Home);

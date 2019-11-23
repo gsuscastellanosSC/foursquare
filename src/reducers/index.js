@@ -42,9 +42,8 @@ const reducer = (state, action) => {
       }
       return {
         ...state,
-        search: state.food.filter((item) => item.nameSite.toLowerCase().includes(action.payload.toLowerCase()))
-          || state.coffee.filter((item) => item.nameSite.toLowerCase().includes(action.payload.toLowerCase()))
-        || [],
+        search: state.all.filter((item) => item.nameSite.toLowerCase().includes(action.payload.toLowerCase()))
+           || [],
       };
 
     default:
