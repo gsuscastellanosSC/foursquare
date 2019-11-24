@@ -20,7 +20,7 @@ const Home = ({
     <>
       <Search isHome />
       <div className="button__Search">
-        <ButtonCategories title="Comida" type="food" />
+      <ButtonCategories title="Comida" type="food" />
         <ButtonCategories title="Café" />
         <ButtonCategories title="Nocturna" />
         <ButtonCategories title="Diversión" />
@@ -29,6 +29,8 @@ const Home = ({
         <ButtonCategories title="Mascotas" />
         <ButtonCategories title="Cine" />
       </div>
+      <div className="button__Search"> </div>
+
       {MySites.length > 0
       && (
       <Categories title="Sitios Favoritos">
@@ -43,54 +45,6 @@ const Home = ({
         </Carousel>
       </Categories>
       )}
-
-      <Categories title="Comida">
-        <Carousel>
-          {food.map((item) => <CarouserItem key={item.id} {...item} />)}
-        </Carousel>
-      </Categories>
-
-      <Categories title="Café">
-        <Carousel>
-          {coffee.map((item) => <CarouserItem key={item.id} {...item} />)}
-        </Carousel>
-      </Categories>
-
-      <Categories title="Nocturna">
-        <Carousel>
-          {night.map((item) => <CarouserItem key={item.id} {...item} />)}
-        </Carousel>
-      </Categories>
-
-      <Categories title="Diversión">
-        <Carousel>
-          {fun.map((item) => <CarouserItem key={item.id} {...item} />)}
-        </Carousel>
-      </Categories>
-
-      <Categories title="Compras">
-        <Carousel>
-          {shopping.map((item) => <CarouserItem key={item.id} {...item} />)}
-        </Carousel>
-      </Categories>
-
-      <Categories title="Salud">
-        <Carousel>
-          {Health.map((item) => <CarouserItem key={item.id} {...item} />)}
-        </Carousel>
-      </Categories>
-
-      <Categories title="Mascotas">
-        <Carousel>
-          {pets.map((item) => <CarouserItem key={item.id} {...item} />)}
-        </Carousel>
-      </Categories>
-
-      <Categories title="Cine">
-        <Carousel>
-          {movie.map((item) => <CarouserItem key={item.id} {...item} />)}
-        </Carousel>
-      </Categories>
     </>
   );
 };

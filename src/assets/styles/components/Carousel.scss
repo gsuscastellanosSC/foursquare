@@ -13,9 +13,9 @@
   margin: 70px 0px 0px 0px;
   padding-bottom: 20px;
   display: flex;
+  align-items: center;
   justify-content: center;
-  /*;
-  flex-direction: column;*/
+  flex-direction: row;
 }
 
 .carousel__container:hover .carousel-item {

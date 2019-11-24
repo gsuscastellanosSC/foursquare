@@ -15,7 +15,9 @@ import '../assets/styles/components/CarouselItem.scss';
 import '../assets/styles/components/Search.scss';
 
 const Search = (props) => {
-  const { isHome, search, isSearch } = props;
+  const {
+ isHome, search, isSearch, isSearchCarousel,
+} = props;
   const hasSearch = Object.keys(search).length > 0;
   const handleInput = (event) => {
     props.setsearch(event.target.value);
@@ -26,6 +28,9 @@ const Search = (props) => {
   const searchStyle = classNames('categories', {
     isSearch,
   });
+  const SearchCarouselStyle = classNames('carousel', {
+    isSearchCarousel,
+  });
   return (
     <div>
       <section className="main">
@@ -33,9 +38,11 @@ const Search = (props) => {
         <input type="text" name="search" className={inputStyle} placeholder="Buscar..." onChange={handleInput} />
         {hasSearch ? (
           <Categories title="Resultados" className={searchStyle}>
-            <Carousel>
-              {search.map((item, index) => <CarouserItem key={index} {...item} />)}
-            </Carousel>
+            <div className={SearchCarouselStyle}>
+              <Carousel>
+                {search.map((item, index) => <CarouserItem key={index} {...item} />)}
+              </Carousel>
+            </div>
           </Categories>
         ) : null }
       </section>
