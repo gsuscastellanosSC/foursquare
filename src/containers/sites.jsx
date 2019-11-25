@@ -6,7 +6,6 @@ import ItemSite from '../components/ItemSite';
 import '../assets/styles/components/Sites.scss';
 
 const Sites = (props) => {
-
   const {
     food = [],
     coffee = [],
