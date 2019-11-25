@@ -45,7 +45,11 @@ const reducer = (state, action) => {
         search: state.all.filter((item) => item.nameSite.toLowerCase().includes(action.payload.toLowerCase()))
           || [],
       };
-
+    case 'GET_ALL_SITES':
+      return {
+        ...state,
+        Sites: [...state.Sites, action.payload],
+      };
     default:
       return state;
   }
