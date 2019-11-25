@@ -20,7 +20,7 @@ const initialState = {
   "food": [
       {
         "id": 2,
-        "nameSite": "Hamburguesa",
+        "nameSite": "Frisby",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "food",
@@ -31,7 +31,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://www.ecestaticos.com/imagestatic/clipping/1ed/a44/1eda44daf5f75ca868b7eb9bf93396e4/por-que-el-desayuno-es-la-comida-mas-importante-si-quieres-estar-delgado.jpg?mtime=1500455115",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.5560716,
+        "lng": -74.2595918,
       },
       {
         "id": 3,
@@ -46,7 +47,8 @@ const initialState = {
         "socialMedia": [{ "gmail": "sitio@gmail.com", "facebook": "sitio@gmail.com" }],
         "images": "https://blog.seccionamarilla.com.mx/wp-content/uploads/2017/11/comida_naviden%CC%83a-770x578.jpg",
         "source": "https://www.kienyke.com/wp-content/uploads/2018/05/avistamientos.jpeg",
-        "coordinates": [{ "lat": 4.6560716, "lng": -74.0595918 }],
+        "lat": 4.6560716,
+        "lng": -74.0595918,
       },
       {
         "id": 4,
@@ -388,7 +390,7 @@ const initialState = {
     "shopping": [
       {
         "id": 27,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Zapateria Zapatico Cochinito",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "Diversión",

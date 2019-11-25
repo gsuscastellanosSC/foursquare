@@ -43,7 +43,7 @@ const reducer = (state, action) => {
       return {
         ...state,
         search: state.all.filter((item) => item.nameSite.toLowerCase().includes(action.payload.toLowerCase()))
-           || [],
+          || [],
       };
 
     default:
