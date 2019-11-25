@@ -14,7 +14,7 @@ class MapSites extends React.Component {
         google={google}
         zoom={13}
         style={{ width: '100%', height: '100%', position: 'relative' }}
-        initialCenter={{ lat: 4.5560716, lng: -74.2595918 }}
+        initialCenter={{ lat: coords[0].lat, lng: coords[0].lng }}
 
       >
 
@@ -24,12 +24,12 @@ class MapSites extends React.Component {
           // position={{lat: google[0].venueLat, lng: google[0].venueLon}}
         /> */}
         <Marker
-          name="Platzi HQ Bogota"
+          name=""
           position={{ lat: coords[0].lat, lng: coords[0].lng }}
         />
         {coords.map((point) => {
           return (<Marker
-            name="Platzi HQ Bogota"
+            name="Punto"
             position={{ lat: point.lat, lng: point.lng }}
           />);
         })}
