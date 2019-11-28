@@ -8,16 +8,16 @@
 
 .item {
   width: 100%;
-  max-width: 500px;
+  max-width: 550px;
   height: 250px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 50px 200px 50px;
+  margin: 20px 30px 200px 30px;
 }
 
 .item .card {
-  width: 330px;
+  width: 500px;
   height: 430px;
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -33,8 +33,8 @@
 }
 
 .item .card img {
-  width: 330px;
-  height: 220px;
+  width: 530px;
+  height: 250px;
 }
 
 .item .card h4 {
