@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/styles/components/ItemSite.scss'; 
 
 
 const ItemSite = (props) => {
@@ -6,11 +7,12 @@ const ItemSite = (props) => {
     id, cat, nameSite, description, rating, type, comments, address, city, country, socialMedia, images, source, isList, lat, lng,
   } = props;
   return (
-    <section>
-      <h3>{cat.id}</h3>
-      <h5>{nameSite}</h5>
-      <img src={images} alt="" />
-      <br />
+    <section className="item">
+      <div className="card">
+        <img src={images} alt="" />
+        <h4>{nameSite}</h4>
+        <p>{description}</p>
+      </div>
     </section>
   );
 };
