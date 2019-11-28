@@ -31,6 +31,12 @@ const reducer = (state, action) => {
         ...state,
         playing: state.food.find((item) => item.id === Number(action.payload))
         || state.coffee.find((item) => item.id === Number(action.payload))
+        || state.night.find((item) => item.id === Number(action.payload))
+        || state.fun.find((item) => item.id === Number(action.payload))
+        || state.shopping.find((item) => item.id === Number(action.payload))
+        || state.Health.find((item) => item.id === Number(action.payload))
+        || state.pets.find((item) => item.id === Number(action.payload))
+        || state.movie.find((item) => item.id === Number(action.payload))
         || [],
       };
     case 'SET_SETSEARCH':

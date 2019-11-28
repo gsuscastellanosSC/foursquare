@@ -395,7 +395,7 @@ const initialState = {
       },
       {
         "id": 26,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Zipaquira",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "Diversión",
@@ -985,7 +985,7 @@ const initialState = {
       },
 	  {
         "id": 14,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "La greca",
         "description": "bla bla bla bla",
         "rating": 15,
         "type": "night",
@@ -1149,7 +1149,7 @@ const initialState = {
       },
       {
         "id": 26,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Catedral",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "fun",

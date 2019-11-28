@@ -12,9 +12,9 @@ class MapSites extends React.Component {
     return (
       <Map
         google={google}
-        zoom={13}
+        zoom={10}
         style={{ width: '100%', height: '100%', position: 'relative' }}
-        initialCenter={{ lat: coords[0].lat, lng: coords[0].lng }}
+        initialCenter={{ lat: 4.6454338, lng: -74.0849964 }}
 
       >
 
