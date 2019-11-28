@@ -1,13 +1,11 @@
 import React from 'react';
-import '../assets/styles/components/ItemSite.scss'; 
+import '../assets/styles/components/ItemSite.scss';
 
 
 const ItemSite = (props) => {
   const {
     id, cat, nameSite, description, rating, type, comments, address, city, country, socialMedia, images, source, isList, lat, lng,
   } = props;
-
-  console.log(`===============> ${id}`);
   return (
     <section className="item">
       <div className="card">
@@ -20,7 +18,8 @@ const ItemSite = (props) => {
         <p>Ciudad: {city}</p>
         <p>Pais: {country}</p>
         <p>Comentarios: {comments}</p>
-        
+        <p>Correo: {socialMedia[0].gmail}</p>
+        <p>Facebook: {socialMedia[0].facebook}</p>
       </div>
     </section>
   );

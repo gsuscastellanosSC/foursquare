@@ -25,7 +25,7 @@ const initialState = {
       "description": "bla bla bla bla",
       "rating": 10,
       "type": "food",
-      "ccomments": "16+",
+      "comments": "Excelente sitio",
       "address": "Calle 100# 13-21",
       "city": "Bogota",
       "country": "Colombia",
@@ -1164,7 +1164,7 @@ const initialState = {
       },
 	   {
         "id": 27,
-        "nameSite": "Catedral-Zipaquira",
+        "nameSite": "Zapatico Cochinito",
         "description": "bla bla bla bla",
         "rating": 10,
         "type": "shopping",

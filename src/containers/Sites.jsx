@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { getAllSites } from '../actions';
 import MapSites from '../components/MapSites';
-import ItemSite from '../components/ItemSite';
+import ItemSites from '../components/ItemSites';
 import '../assets/styles/components/Sites.scss';
 
 const Sites = (props) => {
@@ -45,17 +45,15 @@ const Sites = (props) => {
     return coords;
   });
 
-
   useEffect(() => {
     props.getAllSites(itemsSites);
   }, []);
-
 
   return (
     <section className="container">
       <section className="info">
 
-        {itemsSites.map((item) => <ItemSite cat={cat} key={item.id} {...item} />)}
+        {itemsSites.map((item) => <ItemSites cat={cat} key={item.id} {...item} />)}
 
       </section>
       <section className="map">

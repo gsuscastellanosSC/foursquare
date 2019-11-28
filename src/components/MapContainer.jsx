@@ -25,7 +25,7 @@ class MapContainer extends React.Component {
         google={google}
         zoom={13}
         style={{ width: '100%', height: '100%', position: 'relative' }}
-        initialCenter={{ lat: 4.5560716, lng: -74.2595918 }}
+        initialCenter={{ lat, lng }}
 
       >
 

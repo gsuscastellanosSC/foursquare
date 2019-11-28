@@ -9,16 +9,16 @@
 .item {
   width: 100%;
   max-width: 550px;
-  height: 250px;
+  height: 700px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 30px 200px 30px;
+  margin: 20px 30px 10px 30px;
 }
 
 .item .card {
   width: 500px;
-  height: 430px;
+  height: 650px;
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
