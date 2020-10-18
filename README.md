@@ -5,7 +5,4 @@
 ***Execute**
     npm install && npm run start;
 ***Tag***
-eSTO ES una prueba
-v1.9prueba II
-v2.0prueba III
-v2.1
+v2.2
