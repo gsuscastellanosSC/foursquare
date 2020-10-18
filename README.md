@@ -6,4 +6,5 @@
     npm install && npm run start;
 ***Tag***
 eSTO ES una prueba
-v1.9
+v1.9prueba II
+v2.0
