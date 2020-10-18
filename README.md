@@ -6,3 +6,4 @@
     npm install && npm run start;
 ***Tag***
 
+v0.8
