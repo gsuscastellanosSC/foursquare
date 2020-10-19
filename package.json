@@ -55,7 +55,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gsuscastellanosSC/foursquare.git"
+    "url": "git+https://git.heroku.com/foursquare2019.git"
   },
   "optionalDependencies": {
     "lodash.isarray": "^4.0.0"
@@ -68,7 +68,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gsuscastellanosSC/foursquare/issues"
+    "url": "https://git.heroku.com/foursquare2019.git"
   },
-  "homepage": "https://github.com/gsuscastellanosSC/foursquare#readme"
+  "homepage": "https://git.heroku.com/foursquare2019.git/blob/master/README.md"
 }
