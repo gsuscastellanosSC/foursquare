@@ -6,3 +6,4 @@
     npm install && npm run start;
 ***Tag***
 v2.4
+v2.5
